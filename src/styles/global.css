@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.section-spacing {
+  @apply py-8 sm:py-16;
+}
+
+.st1 {
+  fill: #ffb406;
+}
+
+.active {
+  @apply bg-white text-gray-900 rounded-md;
+}
+
+.active-footer {
+  @apply text-gray-500;
+}
